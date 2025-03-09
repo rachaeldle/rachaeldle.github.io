@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nanu Beauty</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap">
   <style>
     * {
       margin: 0;
@@ -24,12 +22,11 @@
       top: 0;
       left: 0;
       width: 100%;
-      background: #f8e1e7;
-      padding: 10px 20px;
+      background: #fff1e7;
+      padding: 20px 25px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       z-index: 9999;
     }
 
@@ -45,76 +42,44 @@
     nav a {
       color: #333;
       text-decoration: none;
-      font-weight: 600;
+      font-weight: 500;
     }
 
     section {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      color: #333;
-      font-weight: 800;
-      text-align: center;
-      padding: 40px;
+      background: #fff1e7;
+      height: 80vh;
+      padding: 10%;
     }
 
     h1 {
-      font-family: 'Merriweather', serif;
       font-size: 2.5rem;
       margin-bottom: 20px;
+      font-weight: 500;
     }
 
     p {
       font-weight: 400;
       font-size: 1.2rem;
       margin-bottom: 15px;
-      line-height: 2;
+      line-height: 1.5;
     }
 
-ul {
-  font-weight: 400;
-  font-size: 1.2rem;
-  margin-bottom: 15px;
-  line-height: 2;
-}
-
-li {
-  margin-left: 20px;
-}
-
-    #home {
-      background: #ffecef;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-around;
-      text-align: left;
-      flex-direction: column;
+    ul {
+        font-weight: 400;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        line-height: 2;
     }
 
-    .home-content {
-      max-width: 500px;
-    }
-
-    .home-image img {
-      max-width: 350px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
-
-    #contact {
-      background: #fff1e7;
-      flex-direction: column;
+    li {
+        margin-left: 20px;
     }
 
     #product {
-      background: #ffecef;
       flex-direction: column;
     }
 
     #about {
-      background: #fff1e7;
       flex-direction: column;
     }
 
@@ -134,39 +99,8 @@ li {
         gap: 10px;
       }
 
-      #home {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      .home-image img {
-        width: 100%;
-        max-width: 300px;
-        margin-top: 20px;
-      }
-
-      h1 {
-        font-size: 2rem;
-      }
-
-      p {
-        font-size: 1rem;
-      }
-
-      section {
-        font-size: 1.5em;
-      }
-
       nav a {
         font-size: 0.9em;
-      }
-}
-
-      footer {
-        text-align: center;
-        background-color: #fff1e7;
-        padding: 15px 0;
-        font-weight: 600;
       }
 
     }
@@ -184,35 +118,41 @@ li {
   </nav>
 
   <section id="home">
-    <div class="home-content">
-      <h1>Increase Client Retention for Beauty and Skincare</h1>
-      <p>
-        Use cutting-edge AI technology from Stanford University to help your clients see the results of your products and services in real-time.
-      </p>
-      <ul>
-        <li>Computer vision skin analysis</li>
-        <li>Client skin health tracker</li>
-        <li>Company dashboard to monitor client progress</li>
-      </ul>
-    </div>
-    <div class="home-image">
-      <img src="scan.png" alt="AI Skin Analysis">
+    <div style="display: flex; flex-direction: row;">
+        <div style="margin-right: 2%;">
+            <h1 style="padding-bottom: 20px; flex-wrap: wrap; width: 100%">Increase client retention for beauty and skincare</h1>
+            <p style="padding-bottom: 20px; flex-wrap: wrap; width: 80%">
+                Use cutting-edge AI technology from Stanford University to help your clients see the results of your products and services in real-time.
+            </p>
+            <ul>
+                <li>Computer vision skin analysis</li>
+                <li>Client skin health tracker</li>
+                <li>Company dashboard to monitor client progress</li>
+            </ul>
+        </div>
+
+        <div style="width: 90%;">
+            <img src="report.png" alt="AI Skin Analysis" style="width: 70%;">
+            <img src="scan_face.jpg" alt="AI Skin Analysis"  style="width: 30%; margin: -40px">
+        </div>
     </div>
   </section>
 
   <section id="contact">
-      <div>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc_CKzuCieLP1UZLyu1szx4l7siIJZIs9HM_BrdAapqMFL29A/viewform?embedded=true" width="750" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-       </div>
+      <div style="display: flex; justify-content: center; width: 100%">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc_CKzuCieLP1UZLyu1szx4l7siIJZIs9HM_BrdAapqMFL29A/viewform?embedded=true" width="80%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+     </div>
   </section>
 
-  <section id="about">
-    <h1>About Us</h1> <br>
-    <h2>Hello! I'm Rachael, Stanford student and skincare enthusiast ✨ <h2> <br>
-<p> Passionate about helping people find sustainable skincare practices suited to their unique needs, I founded Nanu to provide objective information and guidance backed by science. We deliver the truth about beauty. </p> 
+    <section id="about">
+        <h1>About Us</h1> 
+        <br>
+        <h2 style="font-weight: 400;">Hello! I'm Rachael, Stanford student 🌲 and skincare enthusiast ✨ <h2> 
+        <br>
+        <p> Passionate about helping people find sustainable skincare practices suited to their unique needs, I founded Nanu to provide objective information and guidance backed by science. We deliver the truth about beauty. </p> 
     </section>
       
-<footer>
+<footer style="text-align: center; background-color: #fff1e7; padding: 15px 0; font-weight: 300;">
     Contact us: nanu.info.official@gmail.com | &copy; 2025 Nanu Beauty. All rights reserved.
   </footer>    
     </body>
